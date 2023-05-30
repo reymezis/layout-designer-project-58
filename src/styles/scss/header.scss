@@ -1,0 +1,22 @@
+.bg-light {
+  background-color: $light;
+} 
+
+header::before {
+  @include bg;
+}
+
+.img-header {
+  height: 525px;
+  position: absolute;
+  top: 55px;
+  right: -270px;
+}
+
+.pb-40px {
+  padding-bottom: 40px;
+}
+
+.pb-185px {
+  padding-bottom: 185px;
+}
