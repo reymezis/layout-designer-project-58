@@ -18,11 +18,14 @@ body {
   color: $dark;
 }
 
-.section-settings {
-  max-width: 1110px;
-  margin: 0 auto;
+.section-paddings {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.content {
+  max-width: 1110px;
+  margin: 0 auto;
 }
 
 .hidden {
@@ -32,6 +35,8 @@ body {
 @mixin bg {
   content: "";
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -54,20 +59,41 @@ h1 {
 
 h2 {
   font-size: 60px;
+  font-weight: 400;
 }
 
 h3 {
   font-size: 34px;
+  font-weight: 400;
 }
 
 p {
   font-family: "Open Sans", sans-serif;
 }
 
-.d-flex2 {
+@mixin txt-64px {
+  font-family: Neucha, sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+}
+
+.txt-52px {
+  font-family: Neucha, sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.2;
+}
+
+.d-flex {
   display: flex;
   flex-flow: row wrap;
   column-gap: 30px;
+  row-gap: 20px;
+}
+
+.ta-center {
+  text-align: center;
 }
 
 .f-1 {
@@ -82,8 +108,16 @@ p {
   position: relative;
 }
 
+.light {
+  color: $light;
+}
+
 .basic {
   color: $basic;
+}
+
+.basic-dark {
+  color: $basic-dark;
 }
 
 .lh-1 {
@@ -93,3 +127,6 @@ p {
 .td-none {
   text-decoration: none;
 }
+
+
+

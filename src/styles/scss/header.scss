@@ -1,9 +1,9 @@
+#header::before {
+  @include bg;
+}
+
 .bg-light {
   background-color: $light;
-} 
-
-header::before {
-  @include bg;
 }
 
 .img-header {

@@ -1,0 +1,37 @@
+[data-card="card-dark"] {
+  box-sizing: border-box;
+  width: 350px;
+  padding: 0;
+  background: $basic-dark;
+}
+
+[data-card="card"] {
+  box-sizing: border-box;
+  width: 350px;
+  padding: 24px;
+  background: $light;
+}
+
+[data-card="card-number"] {
+  padding-bottom: 40px;
+  
+  @include txt-64px;
+  color: $basic-dark;
+}
+
+[data-card="card-title"] {
+  color: $basic;
+}
+
+[data-card="card-description"] {
+  margin-bottom: 0;
+  color: $dark;
+}
+
+[data-card="card"]:hover {
+  background: $basic;
+}
+
+[data-card="card"]:hover [data-card^="card"] {
+  color: $white;
+}
