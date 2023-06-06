@@ -1,19 +1,19 @@
 @font-face {
   font-family: "Open Sans";
   font-weight: 400;
-  src: url("/src/fonts/OpenSans-Regular.ttf");
+  src: url("/fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "Open Sans";
   font-weight: 700;
-  src: url("/src/fonts/OpenSans-Bold.ttf");
+  src: url("/fonts/OpenSans-Bold.ttf");
 }
 
 @font-face {
   font-family: Neucha;
   font-weight: 400;
-  src: url("/src/fonts/Neucha-Regular.ttf");
+  src: url("/fonts/Neucha-Regular.ttf");
 }
 
 body {
@@ -289,7 +289,7 @@ p {
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/src/images/background.png");
+  background-image: url("/images/background.png");
   opacity: 0.1;
 }
 
@@ -302,7 +302,7 @@ p {
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/src/images/background.png");
+  background-image: url("/images/background.png");
   opacity: 0.1;
 }
 
@@ -315,7 +315,7 @@ p {
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/src/images/background.png");
+  background-image: url("/images/background.png");
   opacity: 0.1;
 }
 
@@ -328,7 +328,7 @@ p {
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/src/images/background.png");
+  background-image: url("/images/background.png");
   opacity: 0.1;
 }
 
@@ -341,7 +341,7 @@ p {
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/src/images/background.png");
+  background-image: url("/images/background.png");
   opacity: 0.1;
 }
 
@@ -354,7 +354,7 @@ p {
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/src/images/background.png");
+  background-image: url("/images/background.png");
   opacity: 0.1;
 }
 
@@ -437,7 +437,7 @@ p {
 }
 
 .form-btn::before {
-  content: url("/src/images/send.svg");
+  content: url("/images/send.svg");
   position: absolute;
   top: 10px;
   left: 21px;
