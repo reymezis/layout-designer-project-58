@@ -1,15 +1,17 @@
 .btn {
   padding: 12px 24px;
-  font-weight: 700;
 }
 
-.btn-primary {
+.btn-basic {
+  box-sizing: border-box;
   width: 148px;
   height: 49px;
-  background-color: $basic;
-  font-family: "Open Sans", sans-serif;
-  text-transform: uppercase;
-  color: $white;
   border: none;
-  box-sizing: border-box;
+  background-color: $basic;
+}
+
+.btn-font-style {
+  font-weight: 700;
+  color: $white;
+  text-transform: uppercase;
 }

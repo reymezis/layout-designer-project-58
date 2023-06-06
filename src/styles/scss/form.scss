@@ -1,0 +1,21 @@
+.form-input {
+  height: 50px;
+  width: 84%;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #E3E3E3;
+}
+
+.form-btn {
+  width: 70px;
+  height: 50px;
+  border: none;
+  background-color: $basic;
+}
+
+.form-btn::before {
+  content: url("/src/images/send.svg");
+  position: absolute;
+  top: 10px;
+  left: 21px;
+}
