@@ -24,14 +24,11 @@ body {
   color: #2a2626;
 }
 
-.section-paddings {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .content {
   max-width: 1110px;
   margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .hidden {
@@ -43,6 +40,7 @@ body {
   position: absolute;
   top: 55px;
   right: -270px;
+  z-index: 2;
 }
 
 h1,
@@ -291,6 +289,7 @@ p {
   background-size: cover;
   background-image: url("/src/images/background.png");
   opacity: 0.1;
+  z-index: 1;
 }
 
 #ikea-effect::before {
@@ -304,6 +303,7 @@ p {
   background-size: cover;
   background-image: url("/src/images/background.png");
   opacity: 0.1;
+  z-index: 1;
 }
 
 #premature-optimization::before {
@@ -317,6 +317,7 @@ p {
   background-size: cover;
   background-image: url("/src/images/background.png");
   opacity: 0.1;
+  z-index: 1;
 }
 
 #distortion-of-novelty::before {
@@ -330,6 +331,7 @@ p {
   background-size: cover;
   background-image: url("/src/images/background.png");
   opacity: 0.1;
+  z-index: 1;
 }
 
 #hyperbolic-depreciation::before {
@@ -343,6 +345,7 @@ p {
   background-size: cover;
   background-image: url("/src/images/background.png");
   opacity: 0.1;
+  z-index: 1;
 }
 
 #errors-in-planning::before {
@@ -356,6 +359,7 @@ p {
   background-size: cover;
   background-image: url("/src/images/background.png");
   opacity: 0.1;
+  z-index: 1;
 }
 
 .btn {
